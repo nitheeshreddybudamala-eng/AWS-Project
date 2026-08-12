@@ -4,230 +4,914 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AWS Cloud Project | My Portfolio</title>
+    <title>AWS Cloud Infrastructure | DevOps Project</title>
+
+    <meta name="description"
+          content="Professional AWS Cloud and DevOps project showcasing scalable infrastructure, automation, security, monitoring and deployment.">
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+          rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">AWS PROJECT</div>
+<!-- ================= NAVBAR ================= -->
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">☁</span>
+            <span>AWS<span class="logo-highlight">Cloud</span></span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#architecture">Architecture</a>
+            <a href="#services">Services</a>
+            <a href="#devops">DevOps</a>
+            <a href="#security">Security</a>
         </nav>
-    </header>
+
+        <a href="#contact" class="nav-button">
+            View Project
+        </a>
+
+    </div>
+
+</header>
 
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-background"></div>
+
+    <div class="container hero-container">
 
         <div class="hero-content">
 
-            <p class="subtitle">AWS CLOUD PROJECT</p>
+            <div class="status">
+                <span class="status-dot"></span>
+                AWS CLOUD PROJECT
+            </div>
 
             <h1>
-                Welcome to My
-                <span>AWS Website</span>
+                Building
+                <span>Scalable</span>
+                Cloud Infrastructure
             </h1>
 
-            <p class="description">
-                This website is part of my AWS cloud learning journey.
-                It demonstrates how a web application can be deployed
-                using AWS cloud services.
+            <p class="hero-description">
+                A professional AWS Cloud and DevOps implementation focused on
+                scalability, high availability, security, automation and
+                reliable application deployment.
             </p>
 
-            <div class="buttons">
-                <a href="#projects" class="btn primary-btn">
-                    View Project
+            <div class="hero-buttons">
+
+                <a href="#architecture" class="primary-button">
+                    Explore Architecture
+                    <span>→</span>
                 </a>
 
-                <a href="#contact" class="btn secondary-btn">
-                    Contact Me
+                <a href="#services" class="secondary-button">
+                    AWS Services
                 </a>
+
             </div>
 
-        </div>
+            <div class="hero-stats">
 
-    </section>
-
-     <!-- About Section -->
-    <section id="about" class="section">
-
-        <div class="container">
-
-            <h2>About This Project</h2>
-
-            <p>
-                This is my first AWS cloud project. I am learning how
-                to build, deploy, and manage websites using Amazon Web
-                Services.
-            </p>
-
-            <p>
-                The project demonstrates the fundamentals of web hosting,
-                DNS configuration, cloud infrastructure, and deployment.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- AWS Services Section -->
-    <section id="projects" class="section services-section">
-
-        <div class="container">
-
-            <h2>AWS Services</h2>
-
-            <div class="cards">
-
-                <div class="card">
-                    <div class="icon">☁️</div>
-
-                    <h3>Amazon S3</h3>
-
-                    <p>
-                        Used for storing and hosting static website
-                        files such as HTML, CSS, and JavaScript.
-                    </p>
+                <div class="stat">
+                    <strong>99.9%</strong>
+                    <span>Availability Goal</span>
                 </div>
 
-
-                <div class="card">
-                    <div class="icon">🌐</div>
-
-                    <h3>Route 53</h3>
-
-                    <p>
-                        Used for DNS management and connecting
-                        the domain name to the website.
-                    </p>
+                <div class="stat">
+                    <strong>24/7</strong>
+                    <span>Monitoring</span>
                 </div>
 
-                <div class="card">
-                    <div class="icon">🖥️ </div>
-
-                    <h3>Amazon EC2</h3>
-
-                    <p>
-                        Provides a virtual server environment for
-                        running applications and web servers.
-                    </p>
+                <div class="stat">
+                    <strong>AWS</strong>
+                    <span>Cloud Platform</span>
                 </div>
 
             </div>
 
         </div>
 
-    </section>
 
+        <!-- CLOUD VISUAL -->
 
-    <!-- Learning Journey -->
-    <section class="section">
+        <div class="cloud-visual">
 
-        <div class="container">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
 
-            <h2>My AWS Learning Journey</h2>
+            <div class="cloud-core">
 
-            <div class="timeline">
-
-                <div class="timeline-item">
-                    <span>01</span>
-                    <div>
-                        <h3>Learn AWS Fundamentals</h3>
-                        <p>
-                            Understand AWS regions, services,
-                            networking, and security.
-                        </p>
-                    </div>
+                <div class="cloud-symbol">
+                    ☁
                 </div>
 
+                <h3>AWS</h3>
+                <p>Cloud Infrastructure</p>
 
-                <div class="timeline-item">
-                    <span>02</span>
-                    <div>
-                        <h3>Deploy a Website</h3>
-                        <p>
-                            Build a website using HTML and CSS
-                            and deploy it to AWS.
-                        </p>
-                          </div>
+            </div>
+
+            <div class="floating-card card-one">
+                <span>EC2</span>
+                <small>Compute</small>
+            </div>
+
+            <div class="floating-card card-two">
+                <span>S3</span>
+                <small>Storage</small>
+            </div>
+
+            <div class="floating-card card-three">
+                <span>VPC</span>
+                <small>Networking</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section" id="about">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-label">
+                PROJECT OVERVIEW
+            </div>
+
+            <h2>
+                Designed for the
+                <span>Cloud Era</span>
+            </h2>
+
+            <p>
+                This project demonstrates how AWS services can be combined
+                to create a secure, scalable and production-oriented
+                cloud infrastructure.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <div class="feature-icon">⚡</div>
+
+                <h3>High Performance</h3>
+
+                <p>
+                    Deploy applications on reliable AWS compute resources
+                    with optimized networking and scalable infrastructure.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">🔒</div>
+
+                <h3>Secure by Design</h3>
+
+                <p>
+                    Use VPC networking, security groups, IAM permissions
+                    and controlled access to protect cloud resources.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">📈</div>
+
+                <h3>Scalable Architecture</h3>
+
+                <p>
+                    Build infrastructure capable of handling increasing
+                    workloads while maintaining reliability.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">⚙</div>
+
+                <h3>Automation Ready</h3>
+
+                <p>
+                    Integrate DevOps practices to automate deployment,
+                    infrastructure management and application delivery.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ARCHITECTURE ================= -->
+
+<section class="section architecture-section" id="architecture">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-label">
+                CLOUD ARCHITECTURE
+            </div>
+
+            <h2>
+                How the Infrastructure
+                <span>Works</span>
+            </h2>
+
+            <p>
+                A simplified representation of the application's flow
+                through the AWS infrastructure.
+            </p>
+
+        </div>
+
+
+        <div class="architecture">
+
+            <div class="architecture-node">
+
+                <div class="node-icon">🌐</div>
+
+                <h3>Users</h3>
+
+                <p>Internet Traffic</p>
+
+            </div>
+
+
+            <div class="connection">
+                <span>→</span>
+            </div>
+
+
+            <div class="architecture-node">
+
+                <div class="node-icon">🛡</div>
+
+                <h3>VPC</h3>
+
+                <p>Secure Network</p>
+
+            </div>
+
+
+            <div class="connection">
+                <span>→</span>
+            </div>
+
+
+            <div class="architecture-node">
+
+                <div class="node-icon">⚖</div>
+
+                <h3>Load Balancer</h3>
+
+                <p>Traffic Distribution</p>
+
+            </div>
+
+
+            <div class="connection">
+                <span>→</span>
+            </div>
+
+
+            <div class="architecture-node">
+
+                <div class="node-icon">💻</div>
+
+                <h3>EC2</h3>
+
+                <p>Application Server</p>
+
+            </div>
+
+
+            <div class="connection">
+                <span>→</span>
+            </div>
+
+
+            <div class="architecture-node">
+
+                <div class="node-icon">🗄</div>
+
+                <h3>Storage</h3>
+
+                <p>S3 / Database</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="architecture-details">
+
+            <div>
+                <strong>01</strong>
+                <span>Request enters through the internet</span>
+            </div>
+
+            <div>
+                <strong>02</strong>
+                <span>Traffic is routed through the AWS network</span>
+            </div>
+
+            <div>
+                <strong>03</strong>
+                <span>Load balancing distributes application traffic</span>
+            </div>
+
+            <div>
+                <strong>04</strong>
+                <span>EC2 processes the application request</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= AWS SERVICES ================= -->
+
+<section class="section" id="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-label">
+                AWS TECHNOLOGIES
+            </div>
+
+            <h2>
+                AWS Services
+                <span>Implemented</span>
+            </h2>
+
+            <p>
+                Core AWS services used to build and manage the cloud
+                infrastructure.
+            </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card">
+
+                <div class="service-top">
+                    <div class="aws-icon">EC2</div>
+                    <span class="service-number">01</span>
                 </div>
 
+                <h3>Amazon EC2</h3>
 
-                <div class="timeline-item">
-                    <span>03</span>
-                    <div>
-                        <h3>Configure DNS</h3>
-                        <p>
-                            Use Amazon Route 53 to connect
-                            a custom domain to the website.
-                        </p>
-                    </div>
+                <p>
+                    Provides scalable virtual servers for hosting
+                    and running applications.
+                </p>
+
+                <div class="service-tags">
+                    <span>Compute</span>
+                    <span>Servers</span>
                 </div>
 
+            </div>
 
-                <div class="timeline-item">
-                    <span>04</span>
-                    <div>
-                        <h3>Build Advanced Projects</h3>
-                        <p>
-                            Learn EC2, Load Balancers, Auto Scaling,
-                            RDS, CloudFront, and Disaster Recovery.
-                        </p>
-                    </div>
+
+            <div class="service-card">
+
+                <div class="service-top">
+                    <div class="aws-icon">S3</div>
+                    <span class="service-number">02</span>
+                </div>
+
+                <h3>Amazon S3</h3>
+
+                <p>
+                    Highly durable object storage for websites,
+                    files, backups and application assets.
+                </p>
+
+                <div class="service-tags">
+                    <span>Storage</span>
+                    <span>Backup</span>
+                </div>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-top">
+                    <div class="aws-icon">VPC</div>
+                    <span class="service-number">03</span>
+                </div>
+
+                <h3>Amazon VPC</h3>
+
+                <p>
+                    Creates an isolated cloud network with controlled
+                    routing and secure resource communication.
+                </p>
+
+                <div class="service-tags">
+                    <span>Networking</span>
+                    <span>Security</span>
+                </div>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-top">
+                    <div class="aws-icon">IAM</div>
+                    <span class="service-number">04</span>
+                </div>
+
+                <h3>AWS IAM</h3>
+
+                <p>
+                    Manages users, roles and permissions using
+                    controlled access policies.
+                </p>
+
+                <div class="service-tags">
+                    <span>Identity</span>
+                    <span>Access</span>
+                </div>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-top">
+                    <div class="aws-icon">NLB</div>
+                    <span class="service-number">05</span>
+                </div>
+
+                <h3>Network Load Balancer</h3>
+
+                <p>
+                    Distributes incoming traffic across application
+                    targets for improved reliability.
+                </p>
+
+                <div class="service-tags">
+                    <span>Networking</span>
+                    <span>Traffic</span>
+                </div>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-top">
+                    <div class="aws-icon">CW</div>
+                    <span class="service-number">06</span>
+                </div>
+
+                <h3>CloudWatch</h3>
+
+                <p>
+                    Provides monitoring, metrics and visibility into
+                    AWS resources and applications.
+                </p>
+
+                <div class="service-tags">
+                    <span>Monitoring</span>
+                    <span>Logs</span>
                 </div>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+<!-- ================= DEVOPS ================= -->
 
-        <div class="container">
+<section class="section devops-section" id="devops">
 
-            <h2>Let's Connect</h2>
+    <div class="container">
 
-            <p>
-                I am currently learning AWS and building
-                cloud-based projects.
-            </p>
+        <div class="devops-layout">
 
-            <a href="mailto:your-email@example.com"
-               class="btn primary-btn">
-                Contact Me
-            </a>
+            <div class="devops-content">
+
+                <div class="section-label">
+                    DEVOPS WORKFLOW
+                </div>
+
+                <h2>
+                    From Code to
+                    <span>Production</span>
+                </h2>
+
+                <p>
+                    The project follows a DevOps-oriented workflow where
+                    source code, builds, deployment and cloud infrastructure
+                    work together to create a repeatable delivery process.
+                </p>
+
+                <div class="workflow">
+
+                    <div class="workflow-step">
+                        <span>01</span>
+                        <div>
+                            <strong>Code</strong>
+                            <p>Application development</p>
+                        </div>
+                    </div>
+
+                    <div class="workflow-line"></div>
+
+                    <div class="workflow-step">
+                        <span>02</span>
+                        <div>
+                            <strong>GitHub</strong>
+                            <p>Version control</p>
+                        </div>
+                    </div>
+
+                    <div class="workflow-line"></div>
+
+                    <div class="workflow-step">
+                        <span>03</span>
+                        <div>
+                            <strong>Jenkins</strong>
+                            <p>Automated build process</p>
+                        </div>
+                    </div>
+
+                    <div class="workflow-line"></div>
+
+                    <div class="workflow-step">
+                        <span>04</span>
+                        <div>
+                            <strong>AWS</strong>
+                            <p>Application deployment</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="devops-panel">
+
+                <div class="terminal-header">
+
+                    <div class="terminal-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span>deployment.sh</span>
+
+                </div>
+
+
+                <div class="terminal-body">
+
+                    <p>
+                        <span class="terminal-green">$</span>
+                        git push origin main
+                    </p>
+
+                    <p>
+                        <span class="terminal-green">✓</span>
+                        Source code updated
+                    </p>
+
+                    <p>
+                        <span class="terminal-green">$</span>
+                        Jenkins build
+                    </p>
+
+                    <p>
+                        <span class="terminal-green">✓</span>
+                        Build completed successfully
+                    </p>
+
+                    <p>
+                        <span class="terminal-green">$</span>
+                        deploy application
+                    </p>
+
+                    <p>
+                        <span class="terminal-green">✓</span>
+                        Deployment successful
+                    </p>
+
+                    <p class="terminal-final">
+                        STATUS: PRODUCTION READY
+                    </p>
+
+                </div>
+
+            </div>
 
         </div>
 
-    </section>
-     <!-- Footer -->
-    <footer>
+    </div>
 
-        <p>
-            ©️ 2026 AWS Cloud Project
-        </p>
+</section>
 
-        <p>
-            Built with HTML, CSS & AWS
-        </p>
 
-    </footer>
+<!-- ================= SECURITY ================= -->
+
+<section class="section security-section" id="security">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-label">
+                SECURITY & RELIABILITY
+            </div>
+
+            <h2>
+                Built with
+                <span>Security in Mind</span>
+            </h2>
+
+            <p>
+                Security and reliability are integrated throughout
+                the infrastructure.
+            </p>
+
+        </div>
+
+
+        <div class="security-grid">
+
+            <div class="security-card">
+
+                <div class="security-icon">🔐</div>
+
+                <h3>IAM Access Control</h3>
+
+                <p>
+                    Permissions are managed using IAM users,
+                    roles and policies following least-privilege principles.
+                </p>
+
+            </div>
+
+
+            <div class="security-card">
+
+                <div class="security-icon">🛡</div>
+
+                <h3>Security Groups</h3>
+
+                <p>
+                    Network access is controlled through inbound
+                    and outbound security rules.
+                </p>
+
+            </div>
+
+
+            <div class="security-card">
+
+                <div class="security-icon">🌐</div>
+
+                <h3>VPC Isolation</h3>
+
+                <p>
+                    Resources operate inside a logically isolated
+                    virtual network.
+                </p>
+
+            </div>
+
+
+            <div class="security-card">
+
+                <div class="security-icon">📊</div>
+
+                <h3>Monitoring</h3>
+
+                <p>
+                    Cloud monitoring helps identify resource behavior,
+                    performance issues and operational events.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECT HIGHLIGHTS ================= -->
+
+<section class="section highlights-section">
+
+    <div class="container">
+
+        <div class="highlight-box">
+
+            <div class="highlight-content">
+
+                <div class="section-label">
+                    PROJECT HIGHLIGHTS
+                </div>
+
+                <h2>
+                    What This Project
+                    <span>Demonstrates</span>
+                </h2>
+
+                <p>
+                    This project demonstrates practical cloud engineering
+                    concepts rather than simply creating individual AWS
+                    resources.
+                </p>
+
+            </div>
+
+
+            <div class="highlight-list">
+
+                <div>
+                    <span>✓</span>
+                    <p>AWS infrastructure deployment</p>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <p>VPC and networking configuration</p>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <p>EC2 application hosting</p>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <p>Load balancing and traffic management</p>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <p>IAM and security configuration</p>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <p>DevOps automation concepts</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <div>
+
+                <div class="section-label">
+                    AWS CLOUD PROJECT
+                </div>
+
+                <h2>
+                    Ready to Build
+                    <span>in the Cloud?</span>
+                </h2>
+
+                <p>
+                    A practical demonstration of AWS Cloud,
+                    DevOps, networking, security and automation.
+                </p>
+
+            </div>
+
+
+            <div class="contact-buttons">
+
+                <a href="#home" class="primary-button">
+                    Back to Top ↑
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-container">
+
+        <div class="footer-brand">
+
+            <div class="logo">
+                <span class="logo-icon">☁</span>
+                AWS<span class="logo-highlight">Cloud</span>
+            </div>
+
+            <p>
+                Cloud Infrastructure & DevOps Project
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#about">About</a>
+            <a href="#architecture">Architecture</a>
+            <a href="#services">Services</a>
+            <a href="#devops">DevOps</a>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 AWS Cloud Project.
+            Built for learning and demonstration.
+
+        </div>
+
+    </div>
+
+</footer>
+
 
 </body>
 </html>
-
-                                            
